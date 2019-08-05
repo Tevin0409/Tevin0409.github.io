@@ -13,11 +13,11 @@
                 <ul class="nav-menu" id="nav">
                     <li><a href="index1.php">Home</a></li>
                     <li><a href="about.php">About</a></li>
-                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="login.php">Member Network</a></li>
                 </ul>
             </div>
             <div class="menu-bg" id="bg-menu"></div>
-            <a href="" class="brand"><img src="img/logo-houzez-white@2x-4-150x41.png" alt=""></a>
+            <a href="" class="brand"><img src="img/vlagelogo.png" alt="" height="50px" width="151px" ></a>
             <button class="book-now">Book Now</button>
         </div>
     </div>

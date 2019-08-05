@@ -50,8 +50,8 @@
         </svg>
         <div class="slide__text">
           <h2 class="slide__text-heading" style="font-family: 'Open Sans Condensed', sans-serif;">Co-living</h2>
-          <p class="slide__text-desc" style="font-family: 'Open Sans Condensed', sans-serif;">Suspendisse placerat, diam id mattis fringilla, neque turpis vestibulum tellus, et aliquet dui enim et te.Mauris semper, libero vel vehicula hendrerit, lorem purus aliquet dolor, vehicula faucibus dolor orci eget augue.
-          Integer sit amet felis purus.</p>
+          <p class="slide__text-desc" style="font-family: 'Open Sans Condensed', sans-serif;">Co-living is a type of lifestyle where there is a community of housing where the rooms are privately rented, leased or owned in a single home or property and the bathrooms, kitchen and living room shared.
+              Co-living creates a sense of community and the residents often shared common values, lifestyles, and motivations.</p>
           <a class="slide__text-link" style="font-family: 'Open Sans Condensed', sans-serif;">Learn More</a>
         </div>
       </div>
@@ -64,8 +64,7 @@
         </svg>
         <div class="slide__text">
           <h2 class="slide__text-heading" style="font-family: 'Open Sans Condensed', sans-serif;">Affordable housing</h2>
-          <p class="slide__text-desc" style="font-family: 'Open Sans Condensed', sans-serif;">Aliquam leo est, congue placerat tortor a, pellentesque faucibus felis. Phasellus eget ex odio. Integer lorem lorem.Donec facilisis ac urna id dictum. Vestibulum porta varius metus, quis malesuada ex mollis et. Cras convallis quam
-          turpis, a pulvinar urna tempus vel. Nullam vitae auctor erat.</p>
+          <p class="slide__text-desc" style="font-family: 'Open Sans Condensed', sans-serif;">Budget or not Come TheVlage is the place for you. Wallet friendly rates plus fully stacked house means you can enjoy housing in a whole new way </p>
           <a class="slide__text-link" style="font-family: 'Open Sans Condensed', sans-serif;">Learn More</a>
         </div>
       </div>
@@ -157,7 +156,7 @@
           </p>
         </div>
       </div>
-      <div class=" sect3">
+      <div class="">
         <div class="col-md-6 ">
           <div class="img-hover-zoom--quick-zoom cont">
             <a href="#" class="btns btn btn-body">Kilimani Spaces</a>
@@ -173,68 +172,7 @@
       </div>
       <?php require "footer.php"; ?>
 
-      <!--    <div class="container sect4">-->
-      <!--        <div class="col-lg-12">-->
-      <!--            <h1 class="bolder">Pick your dates. Pack your bags</h1>-->
-      <!--            <div class="btnf">-->
-      <!--                <a href="#" class="btn btn-body">STAY A FEW NIGHTS</a>-->
-      <!--                <a href="#" class="btn btn-body">MOVE IN FOR MONTHS</a>-->
-      <!---->
-      <!--            </div>-->
-      <!---->
-      <!---->
-      <!--        </div>-->
-      <!--    </div>-->
-      <!--    <br>-->
-      <!--    <footer>-->
-      <!--        <div class="container">-->
-      <!--        <div class="col-sm-3">-->
-      <!--            <h1>TheVlage</h1>-->
-      <!--        </div>-->
-      <!--        <div class="col-sm-3">-->
-      <!--            <h4 ><strong>Residents</strong></h4>-->
-      <!--            <ul class="ul2">-->
-      <!--                <li><a href="#">Payments</a></li>-->
-      <!--                <li><a href="#">Member Network</a></li>-->
-      <!--            </ul>-->
-      <!--        </div>-->
-      <!--        <div class="col-sm-3">-->
-      <!--            <h4><strong>Kilimani</strong></h4>-->
-      <!--            <ul class="ul2">-->
-      <!--                <li><a href="#">kilimani@thevlage.com</a></li>-->
-      <!--                <li><a href="#">+254712345678</a></li>-->
-      <!--            </ul>-->
-      <!--        </div>-->
-      <!--        <div class="col-sm-3">-->
-      <!--            <h4><strong>Main Office</strong></h4>-->
-      <!--            <ul class="ul2">-->
-      <!--                <li><a href="#">info@thevlage.com</a></li>-->
-      <!--                <li><a href="#">+25471234578</a></li>-->
-      <!--            </ul>-->
-      <!--        </div>-->
-      <!--        </div>-->
-      <!---->
-      <!--        <div class="footer-contact"></div>-->
-      <!--            <div class="container">-->
-      <!--            <div class="col-sm-3">-->
-      <!--                <h1>TheVlage</h1>-->
-      <!--            </div>-->
-      <!--            <div class="col-sm-3">-->
-      <!--                <h4 ><strong>Press</strong></h4>-->
-      <!---->
-      <!--            </div>-->
-      <!--            <div class="col-sm-3">-->
-      <!--                    <div class="copyright">&copy; 2018 TheVlage All Rights reserved</div>-->
-      <!--            </div>-->
-      <!--            <div class="col-sm-3">-->
-      <!--                <i class="fab fa-facebook-square fa-3x"></i>-->
-      <!--                <i class="fab fa-twitter-square fa-3x"></i>-->
-      <!--                <i class="fab fa-instagram fa-3x"></i>-->
-      <!--            </div>-->
-      <!--            </div>-->
-      <!---->
-      <!---->
-      <!--    </footer>-->
+
     </section>
       <!--Javascript-->
       <script src="js/slide.js"></script>

@@ -521,7 +521,7 @@ svg {
 }
 
 
- /*Side Menu
+ /*
 
 #sidebar-wrapper {
   z-index: 1000;
@@ -695,6 +695,7 @@ svg {
   padding-left: 60px;
   padding-top: 40px;
   padding-bottom: 20px;
+  font-size: 15px;
 }
 .sect3 {
   overflow: hidden;
@@ -747,7 +748,7 @@ svg {
   border: none;
   cursor: pointer;
   border-radius: 0px;
-  z-index: 500;
+  z-index: 5;
 }
 
 .btnf {
@@ -787,8 +788,9 @@ hr {
   height: 550px;
   left: -69px;
   top: 0px;
-  z-index: 500;
+  z-index: 20;
 }
+
 .about2_1 {
   /*background-color: #ffffff;*/
 }
@@ -898,12 +900,12 @@ h1 {
 }
 
 footer .footer-contact {
-  position: relative;
-  margin-top: 20px;
-  margin-bottom: 20px;
+ position: fixed;
+  /*margin-top: 20px;*/
+  /*margin-bottom: 20px;*/
   /*padding: 55px 0;*/
   border-top: solid 2px #d8d8d8;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
+  /*-webkit-box-sizing: content-box;*/
+  /*box-sizing: content-box;*/
   font-size: 0;
 }

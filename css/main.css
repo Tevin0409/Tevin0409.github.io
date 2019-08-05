@@ -6097,6 +6097,9 @@ a.close.disabled {
     overflow-x: hidden;
     overflow-y: auto;
 }
+.upload{
+    cursor:pointer;
+}
 
 .modal {
     position: fixed;
@@ -6109,6 +6112,7 @@ a.close.disabled {
     overflow: hidden;
     outline: 0;
 }
+
 
 .modal-dialog {
     position: relative;
@@ -11647,7 +11651,7 @@ a:focus {
 }
 
 .bg-register-image {
-    background: url("https://source.unsplash.com/Mv9hjnEUHR4/600x800");
+    background: url("../img/portfolio-2.jpg");
     background-position: center;
     background-size: cover;
 }

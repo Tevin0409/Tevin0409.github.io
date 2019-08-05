@@ -1,3 +1,32 @@
+<?php
+session_start();
+$message="";
+if (isset($_POST["email"]))
+{
+    require "connect.php";
+    extract($_POST);
+    $query="select * from users WHERE email='$email' AND password='$password'";
+    $result=mysqli_query($conn, $query) or die(mysqli_error($conn));
+
+    $count= mysqli_num_rows($result);
+    if ($count==1)
+    {
+        //success
+        $row= mysqli_fetch_assoc($result);
+        extract($row);
+        session_start();
+        $_SESSION["username"]=$username;
+        $_SESSION["type"]=$type;
+        header("location:dashboard.php");
+
+    }
+    else
+    {
+        $message="<p class='text-danger'>Wrong email or password";
+    }
+}
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -33,12 +62,12 @@
                                 <div class="text-center">
                                     <h1 class="h4 text-gray-900 mb-4">Welcome Back!</h1>
                                 </div>
-                                <form class="user">
+                                <form class="user" method="post" action="login.php">
                                     <div class="form-group">
-                                        <input type="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
+                                        <input type="email" name="email" class="form-control form-control-user" id="exampleInputEmail" aria-describedby="emailHelp" placeholder="Enter Email Address...">
                                     </div>
                                     <div class="form-group">
-                                        <input type="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
+                                        <input type="password" name="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
                                     </div>
                                     <div class="form-group">
                                         <div class="custom-control custom-checkbox small">
@@ -46,17 +75,19 @@
                                             <label class="custom-control-label" for="customCheck">Remember Me</label>
                                         </div>
                                     </div>
-                                    <a href="index.html" class="btn btn-primary btn-user btn-block">
+                                    <button type="submit" class="btn btn-primary btn-user btn-block">
                                         Login
-                                    </a>
+                                    </button>
+                                    <?=$message?>
                                     <hr>
-                                    <a href="index.html" class="btn btn-google btn-user btn-block">
+                                    <a href="dashboard.php" class="btn btn-google btn-user btn-block">
                                         <i class="fab fa-google fa-fw"></i> Login with Google
                                     </a>
-                                    <a href="index.html" class="btn btn-facebook btn-user btn-block">
+                                    <a href="dashboard.php" class="btn btn-facebook btn-user btn-block">
                                         <i class="fab fa-facebook-f fa-fw"></i> Login with Facebook
                                     </a>
                                 </form>
+
                                 <hr>
                                 <div class="text-center">
                                     <a class="small" href="forgot-password.html">Forgot Password?</a>
